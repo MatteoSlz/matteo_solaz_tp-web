@@ -151,4 +151,36 @@ p {
     margin-bottom: 20px;
 }
 
+span {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+#croisee-chemins {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  background-color: #0b0c10; 
+  color: #ffffff;
+}
+#croisee-chemins section {
+  flex: 1;
+}
+
+#croisee-chemins hr {
+  border: none;
+  width: 2px;
+  background: linear-gradient(to bottom, #ff9900, #ff5500);
+  align-self: stretch;
+  margin: 0;
+}
+
+#croisee-chemins h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  margin-bottom: 30px;
+}
 
