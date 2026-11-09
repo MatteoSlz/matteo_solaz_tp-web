@@ -88,6 +88,10 @@ header button {
     z-index: 10;
 }
 
+#page-index {
+    overflow: hidden;
+}
+
 h2 {
     color: #FFFFFF;         
     font-family: 'Marcellus', serif;
