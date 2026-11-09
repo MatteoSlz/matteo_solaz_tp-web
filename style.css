@@ -43,3 +43,35 @@ header button {
     border: none;
     cursor: pointer;   
 }
+
+#bande-haut {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    z-index: 10;
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+}
+
+#bande-haut h1 {
+    color: white;          
+    font-weight: bold;        
+    text-align: center;     
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#bande-bas {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    z-index: 10;
+}
