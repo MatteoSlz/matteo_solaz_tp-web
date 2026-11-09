@@ -88,10 +88,6 @@ header button {
     z-index: 10;
 }
 
-#page-index {
-    overflow: hidden;
-}
-
 h2 {
     color: #FFFFFF;         
     font-family: 'Marcellus', serif;
@@ -169,6 +165,7 @@ span {
   background-color: #0b0c10; 
   color: #ffffff;
 }
+
 #croisee-chemins section {
   flex: 1;
 }
@@ -188,3 +185,64 @@ span {
   margin-bottom: 30px;
 }
 
+#bouton-gauche-conteneur {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+#bouton-droit-conteneur {
+  display: flex;
+  justify-content: center;
+}
+
+#bouton-changer {
+  padding: 18px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff8c00 0%, #ff4500 100%);
+  color: #000000;
+  font-family: sans-serif;
+}
+
+#bouton-changer:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(255, 115, 0, 0.5);
+  background: linear-gradient(90deg, #ffaa22 0%, #ff5511 100%);
+}
+
+#bouton-garder:hover {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
+}
+
+
+#bouton-garder {
+  padding: 18px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #555555;
+  font-family: sans-serif;
+}
+
+#page-index {
+    overflow: hidden;
+}
+
+#bouton-changer, #bouton-garder {
+  text-decoration: none;
+  display: inline-block;
+}
