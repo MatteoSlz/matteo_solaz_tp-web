@@ -1,0 +1,45 @@
+body {
+    background-image: url('assets/backgrounds/BackgroundIndex.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#phrase1 {
+    color: black;
+}
+
+#phrase2 {
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+    pointer-events: auto;
+    margin-top: 125px;
+    margin-right: 10px;
+}
+
+header button {
+    opacity: 0;
+    width: 90px;        
+    height: 5px;       
+    border: none;
+    cursor: pointer;   
+}
