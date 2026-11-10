@@ -185,43 +185,61 @@ span {
   margin-bottom: 30px;
 }
 
-#bouton-gauche-conteneur {
+#bouton-gauche {
   display: flex;
   justify-content: center;
   margin-top: 48px;
 }
 
-#bouton-droit-conteneur {
+#bouton-droit {
   display: flex;
   justify-content: center;
 }
 
 #bouton-changer {
-  padding: 18px 50px;
-  font-size: 1rem;
-  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 15px 45px;
+  color: #000;
+  background: #ff8c00; 
+  background: linear-gradient(to right, #ff8c00, #ff4500);
   border: none;
-  border-radius: 50px;
+  border-radius: 25px; 
   cursor: pointer;
-  background: linear-gradient(90deg, #ff8c00 0%, #ff4500 100%);
-  color: #000000;
-  font-family: sans-serif;
 }
 
+#bouton-garder {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px 45px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #555;
+  border-radius: 25px;
+  cursor: pointer;
+}                   
+
+
 #bouton-changer:hover {
-  transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 8px 25px rgba(255, 115, 0, 0.5);
-  background: linear-gradient(90deg, #ffaa22 0%, #ff5511 100%);
+  background: linear-gradient(to right, #ff9e1b, #ff5714);
+  transform: translateY(-2px); 
+  box-shadow: 0 5px 15px rgba(255, 70, 0, 0.4);
 }
 
 #bouton-garder:hover {
-  border-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
+  color: #fff;
+  background-color: #222; 
+  border-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
 }
+
 
 
 #bouton-garder {
