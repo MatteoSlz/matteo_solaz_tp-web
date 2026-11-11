@@ -263,3 +263,39 @@ span {
   display: inline-block;
 }
 
+#EMEA-master {
+    display: block;
+}
+
+#parole {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#parole h2 {
+    color: #FFA500;
+    margin-bottom: 15px;
+}
+
+#parole form {
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+}
+
+#parole form div {
+    margin-bottom: 12px;
+}
+
+#parole label {
+    color: white;
+    cursor: pointer;
+}
+
+#parole input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
