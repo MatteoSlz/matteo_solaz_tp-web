@@ -28,19 +28,21 @@
             </section>
 
              <section id="parole">
-                <h2>Dans le vestiaire avant la dernière game :</h2>
-                <form>
-                    <div>
-                        <input type="radio" id="encourager" name="action" value="encourager">
-                        <label for="encourager">Encourager tout le monde</label>
-                    </div>
+    <h2>Dans le vestiaire avant la dernière game :</h2>
+    <form name="choixForm">
+        <div>
+            <input type="radio" id="encourager" name="action" value="scene04.html" checked>
+            <label for="encourager">Encourager tout le monde</label>
+        </div>
 
-                    <div>
-                        <input type="radio" id="silence" name="action" value="silence">
-                        <label for="silence">Ne rien dire</label>
-                    </div>
-                </form>
-            </section>
+        <div>
+            <input type="radio" id="silence" name="action" value="scene05.html">
+            <label for="silence">Ne rien dire</label>
+        </div>
+
+        <button type="button" id="btn-continuer" onclick="location.href = choixForm.action.value">Continuer</button>
+    </form>
+</section>
         </main>
         
         <footer>
