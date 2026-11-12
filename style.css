@@ -125,6 +125,12 @@ main {
     padding: 80px 40px 70px 40px;
 }
 
+#page-index main {
+    display: block;
+    padding: 0;
+}
+
+
 section {
     flex: 1;
     padding: 0 30px;
